@@ -1,0 +1,188 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*--- navigation styling ---*/
+
+.navbar {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+/* carousel styling */
+
+.carousel-caption {
+  font-size: 4em;
+  color: white;
+  text-shadow: 3px 3px 4px black;
+  text-align: center;
+  top: 350px;
+}
+
+.main:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* Jumbotran */
+.jumbotron-fluid {
+  background-color: #ffebcd;
+}
+.display-6 {
+  font-size: 1.5em;
+  color: darkslategrey;
+}
+
+/* Welcome Section */
+.welcome {
+  background-image: url("/images/welcome.jpg");
+  height: 300px;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+.animate {
+  animation: zoominout 30s ease-out;
+}
+
+@keyframes zoominout {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+.display-5 {
+  position: relative;
+  padding-top: 60px;
+}
+
+/* Know Our History */
+
+.history {
+  font-style: italic;
+  height: auto;
+  width: 100%;
+}
+.history img {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Transport icons styling */
+
+.fas.fa-motorcycle {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
+.fas.fa-bicycle {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
+.fa.fa-taxi {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
+.fa.fa-bus {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+
+.activities,
+.meetteam,
+.card-body,
+#myTesti,
+.services,
+.subscribe {
+  color: slategray;
+}
+/* Meet the team */
+
+.meetteam {
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+/* Cards styling */
+.card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  transition: all 2s ease-in;
+}
+
+.card:hover {
+  background: white;
+  padding: 10px;
+}
+
+.card-body {
+  background-color: Ivory;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border-color: #c60063;
+  color: #c60063;
+}
+
+.btn-secondary:hover {
+  background-color: #c60063;
+}
+
+/* Testimonials styling */
+
+#myTesti {
+  background-image: url("/images/bodybackground.png");
+  width: 100%;
+  height: 500px;
+  font-style: italic;
+  text-align: center;
+  border: 2px solid slategray;
+  box-shadow: 5px 5px 5px 5px slategrey;
+}
+
+.services {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: #ffebcd;
+  color: black;
+  padding-top: 50px;
+}
