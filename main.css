@@ -54,8 +54,11 @@ body {
 
 /* Welcome Section */
 .welcome {
-  height: 300px;
   color: white;
+}
+
+.welcome img {
+  height: 300px;
   box-shadow: 5px 5px 5px black;
 }
 
