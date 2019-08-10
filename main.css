@@ -168,8 +168,6 @@ body {
 
 #myTesti {
   background-image: url("./bodybackground.png");
-  width: 100%;
-  height: 500px;
   font-style: italic;
   text-align: center;
   border: 2px solid slategray;
