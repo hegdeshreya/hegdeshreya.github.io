@@ -166,7 +166,7 @@ body {
 
 /* Testimonials styling */
 
-#myTesti {
+.testi {
   background-image: url("./bodybackground.png");
   font-style: italic;
   text-align: center;
