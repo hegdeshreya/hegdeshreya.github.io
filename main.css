@@ -53,7 +53,7 @@ body {
 }
 
 /* Welcome Section */
-.welcome img {
+.welcome {
   height: 300px;
   color: white;
   box-shadow: 5px 5px 5px black;
