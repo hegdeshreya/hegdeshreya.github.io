@@ -165,8 +165,7 @@ body {
 
 /* Testimonials styling */
 
-#myTesti {
-  background-image: url("hegdeshreya.github.io/bodybackground.png");
+#myTesti img {
   width: 100%;
   height: 500px;
   font-style: italic;
