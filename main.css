@@ -54,12 +54,10 @@ body {
 
 /* Welcome Section */
 .welcome {
-  color: white;
-}
-
-.welcome img {
+  background-image: url("./welcome.jpg");
   height: 300px;
   box-shadow: 5px 5px 5px black;
+  color: white;
 }
 
 .animate {
