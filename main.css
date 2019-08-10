@@ -53,8 +53,7 @@ body {
 }
 
 /* Welcome Section */
-.welcome {
-  background-image: url("hegdeshreya.github.io/welcome.jpg");
+.welcome img {
   height: 300px;
   color: white;
   box-shadow: 5px 5px 5px black;
