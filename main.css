@@ -1,7 +1,9 @@
+html,
 body {
-  padding: 0;
-  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin: auto;
 }
 
 /*--- navigation styling ---*/
@@ -183,4 +185,15 @@ body {
   background-color: #ffebcd;
   color: black;
   padding-top: 50px;
+}
+
+/* Subscribe form styling */
+
+.subscribe {
+  color: slategray;
+}
+
+.btn-primary:hover {
+  background-color: #c60063;
+  color: white;
 }
